@@ -145,64 +145,108 @@
         <!-- Seção Projetos -->
         <section class="portfolio">
             <div class="interface">
-                <h2 class="titulo"><span>PROJETOS </span>EM DESTAQUE</h2>
-                <div class="flex">
-                    <div class="project-box">
-                        <div class="project-img">
-                            <img src="Images/sistema.png" alt="Sistema de Notas">
-                        </div>
-                        <h3>Sistema de Notas</h3>
-                        <p>Sistema completo de gestão acadêmica com CRUD de alunos, lançamento de notas e busca personalizada. Focado em usabilidade e responsividade, consolidando conhecimentos em desenvolvimento fullstack.</p>
-                        <div class="tech-stack">
-                            <span class="tech react">React</span>
-                            <span class="tech vite">Vite</span>
-                            <span class="tech nodejs">Node.js</span>
-                            <span class="tech express">Express</span>
-                            <span class="tech mongodb">MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#" target="_blank"><button><i class="bi bi-box-arrow-up-right"></i></button></a>
-                            <a href="#" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                        </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-left">
+                        <h2 class="titulo"><span>PROJETOS </span>EM DESTAQUE</h2>
+                        <p class="portfolio-description">Projetos importantes que demonstram minha evolução em variadas tecnologias.</p>
                     </div>
                     
-                    <div class="project-box">
-                        <div class="project-img">
-                            <img src="Images/encurtador.png" alt="Encurtador de URLs">
-                        </div>
-                        <h3>Encurtador de URLs</h3>
-                        <p>Projeto simples e funcional para encurtar links. Basta colar uma URL, clicar em "Encurtar" e receber uma versão única e reduzida. Focado em aprimorar habilidades e agregar valor ao portfólio.</p>
-                        <div class="tech-stack">
-                            <span class="tech react">React</span>
-                            <span class="tech vite">Vite</span>
-                            <span class="tech typescript">TypeScript</span>
-                            <span class="tech nodejs">Node.js</span>
-                            <span class="tech express">Express</span>
-                            <span class="tech mongodb">MongoDB</span>
-                            <span class="tech tailwind">Tailwind CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#" target="_blank"><button><i class="bi bi-box-arrow-up-right"></i></button></a>
-                            <a href="#" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                        </div>
-                    </div>
-                    
-                    <div class="project-box">
-                        <div class="project-img project-icon">
-                            <i class="bi bi-cup-hot-fill"></i>
-                        </div>
-                        <h3>Sistema de Gestão Eleitoral</h3>
-                        <p>Sistema ACMEVoting para gestão de eleições municipais desenvolvido como exercício acadêmico. Inclui cadastro de partidos, gerenciamento de candidatos, registro de votos e relatórios avançados, consolidando conhecimentos em POO.</p>
-                        <div class="tech-stack">
-                            <span class="tech java">Java</span>
-                            <span class="tech poo">POO</span>
-                            <span class="tech arquivos">Manipulação de Arquivos</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    <div class="portfolio-right">
+                        <div class="carousel-container">
+                            <div class="project-slide active" data-project="0">
+                                <h3>Sistema de Notas</h3>
+                                <p>Sistema completo de gestão acadêmica com CRUD de alunos, lançamento de notas e busca personalizada. Focado em usabilidade e responsividade, consolidando conhecimentos em desenvolvimento fullstack.</p>
+                                <div class="tech-highlights">
+                                    <span class="tech react">React</span>
+                                    <span class="tech nodejs">Node.js</span>
+                                    <span class="tech mongodb">MongoDB</span>
+                                    <span class="tech express">Express</span>
+                                </div>
+                                <div class="project-links">
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                        </a>
+                                        <span class="project-link-text">Para ver o projeto funcionando, acesse o <strong>Deploy</strong> online</span>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-slide" data-project="1">
+                                <h3>Encurtador de URLs</h3>
+                                <p>Projeto simples e funcional para encurtar links. Basta colar uma URL, clicar em "Encurtar" e receber uma versão única e reduzida. Focado em aprimorar habilidades e agregar valor ao portfólio.</p>
+                                <div class="tech-highlights">
+                                    <span class="tech react">React</span>
+                                    <span class="tech typescript">TypeScript</span>
+                                    <span class="tech tailwind">Tailwind CSS</span>
+                                    <span class="tech vite">Vite</span>
+                                </div>
+                                <div class="project-links">
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                        </a>
+                                        <span class="project-link-text">Para ver o projeto funcionando, acesse o <strong>Deploy</strong> online</span>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-slide" data-project="2">
+                                <h3>Sistema de Gestão Eleitoral</h3>
+                                <p>Sistema ACMEVoting para gestão de eleições municipais desenvolvido como exercício acadêmico. Inclui cadastro de partidos, gerenciamento de candidatos, registro de votos e relatórios avançados, consolidando conhecimentos em POO.</p>
+                                <div class="tech-highlights">
+                                    <span class="tech java">Java</span>
+                                    <span class="tech poo">POO</span>
+                                    <span class="tech arquivos">Manipulação de Arquivos</span>
+                                </div>
+                                <div class="project-links">
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="#" target="_blank" class="project-link-icon">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-navigation">
+                                <button class="nav-btn prev-btn" onclick="changeProject(-1)">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                <button class="nav-btn next-btn" onclick="changeProject(1)">
+                                    <i class="bi bi-chevron-right"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -299,6 +343,34 @@
 
         // Efeito suave de transição
         header.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+
+        // Carrossel de Projetos
+        let currentProjectIndex = 0;
+        const projectSlides = document.querySelectorAll('.project-slide');
+        const totalProjects = projectSlides.length;
+
+        function showProject(index) {
+            // Remove classe active de todos os slides
+            projectSlides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+            
+            // Adiciona classe active ao slide atual
+            projectSlides[index].classList.add('active');
+        }
+
+        function changeProject(direction) {
+            currentProjectIndex += direction;
+            
+            // Loop infinito
+            if (currentProjectIndex >= totalProjects) {
+                currentProjectIndex = 0;
+            } else if (currentProjectIndex < 0) {
+                currentProjectIndex = totalProjects - 1;
+            }
+            
+            showProject(currentProjectIndex);
+        }
     </script>
 
 </body>
