@@ -2,7 +2,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Portfólio de Guilherme Dentzien - Desenvolvedor em formação especializado em desenvolvimento web e backend">
+    <meta name="keywords" content="desenvolvedor, programador, fullstack, react, node.js, javascript, portfólio">
+    <meta name="author" content="Guilherme Dentzien">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
@@ -24,16 +27,23 @@
 
             <nav class = "menu-desktop">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projetos</a></li> 
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li class="dropdown">
+                        <a href="#skills" class="dropdown-toggle">Skills <i class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#skills">Hard Skills</a></li>
+                            <li><a href="#soft-skills">Soft Skills</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#colaboracoes">Colaborações</a></li>
 
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="https://wa.me/5551995541387?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar" target="_blank">
                     <button>Contato</button>
                 </a>
             </div>
@@ -41,7 +51,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="inicio" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -49,7 +59,7 @@
                         <P>Aqui você encontrará alguns dos projetos que desenvolvi como estudante de Engenharia de Software, com foco em desenvolvimento web e back-end. Fique à vontade para explorar meu código, conhecer minhas tecnologias favoritas e acompanhar minha evolução como dev!</P>
                     
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="https://wa.me/5551995541387?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar" target="_blank">
                                 <button>Entre em Contato</button>
                             </a>
                         </div>
@@ -64,7 +74,7 @@
         </section>
 
         <!-- Seção Sobre -->
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -73,14 +83,14 @@
                     
                     <div class="txtsobre">
                         <h2>MUITO PRAZER, <span>SOU GUILHERME DENTZIEN.</span></h2>
-                        <p> Eaí! Me chamo Guilherme Dentzien e sou estudante de <span class="destaque">Engenharia de Software na PUCRS </span>, atualmente no 4º semestre. Tenho uma grande paixão por desenvolvimento web, especialmente no back-end, e venho me dedicando diariamente a evoluir como desenvolvedor por meio de projetos práticos, estudos contínuos e boas práticas de programação.
+                        <p> Eaí! Me chamo Guilherme Dentzien (mais conhecido como Guigs) e sou estudante de <span class="destaque">Engenharia de Software na PUCRS </span>, atualmente no 4º semestre. Tenho uma grande paixão por desenvolvimento web, especialmente no back-end, e venho me dedicando diariamente a evoluir como desenvolvedor por meio de projetos práticos, estudos contínuos e boas práticas de programação.
                         Nos últimos meses, mergulhei em projetos fullstack que me ajudaram a consolidar habilidades em tecnologias modernas como <span class="destaque">Node.js</span>, <span class="destaque">Express</span>, <span class="destaque">React</span>, <span class="destaque">Vite</span>, <span class="destaque">MongoDB</span>, <span class="destaque">Tailwind CSS</span>, entre outras. Essa jornada me permitiu não só aprofundar meus conhecimentos técnicos, mas também desenvolver uma mentalidade voltada à resolução de problemas e colaboração em equipe.</p>
-                        <p>Sou certificado em <span class="destaque">Fundamentos de Orientação a Objetos, Inteligência Artificial e Git/GitHub</span>. Além disso, tenho proficiência em <span class="destaque">inglês (nível B1/B2)</span> e <span class="destaque">espanhol (nível C1)</span>, o que me ajuda a acessar conteúdos internacionais e me comunicar em ambientes diversos.
+                        <p class="p2">Sou certificado em <span class="destaque">Fundamentos de Orientação a Objetos, Inteligência Artificial e Git/GitHub</span>. Além disso, tenho proficiência em <span class="destaque">inglês (nível B1/B2)</span> e <span class="destaque">espanhol (nível C1)</span>, o que me ajuda a acessar conteúdos internacionais e me comunicar em ambientes diversos.
                         No momento, estou em busca de uma oportunidade de estágio na área de desenvolvimento, onde eu possa aplicar tudo o que venho aprendendo e continuar crescendo em um ambiente real, colaborativo e desafiador. Estou animado para contribuir com dedicação, aprendizado rápido e vontade de fazer a diferença.</p>
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                            <a href="#"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://linkedin.com/in/guilhermedentzien"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/guigs028"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/guigs.dz/"><button><i class="bi bi-instagram"></i></button></a>
 
                         </div>
                     </div>
@@ -89,7 +99,7 @@
         </section>
 
         <!-- Seção HARD SKILLS -->
-        <section class="skills">
+        <section id="skills" class="skills">
             <div class="interface">
                 <h2 class="titulo"><span>HARD </span>SKILLS</h2>
                 <div class="flex">
@@ -117,7 +127,7 @@
         </section>
 
         <!-- Seção SOFT SKILLS -->
-        <section class="skills soft-skills">
+        <section id="soft-skills" class="skills soft-skills">
             <div class="interface">
                 <h2 class="titulo"><span>SOFT </span>SKILLS</h2>
                 <div class="flex">
@@ -143,12 +153,15 @@
         </section>
 
         <!-- Seção Projetos -->
-        <section class="portfolio">
+        <section id="projetos" class="portfolio">
             <div class="interface">
                 <div class="portfolio-content">
                     <div class="portfolio-left">
-                        <h2 class="titulo"><span>PROJETOS </span>EM DESTAQUE</h2>
-                        <p class="portfolio-description">Projetos importantes que demonstram minha evolução em variadas tecnologias.</p>
+                        <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                        <p class="portfolio-description">
+                            Conheça alguns dos projetos que desenvolvi, desde aplicações web modernas até sistemas completos. 
+                            Cada projeto representa um desafio superado e aprendizados consolidados.
+                        </p>
                     </div>
                     
                     <div class="portfolio-right">
@@ -164,19 +177,19 @@
                                 </div>
                                 <div class="project-links">
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://github.com/guigs028/Sistema-Notas" target="_blank" class="project-link-icon">
                                             <i class="bi bi-github"></i>
                                         </a>
                                         <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
                                     </div>
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://sistema-notas-eta.vercel.app/" target="_blank" class="project-link-icon">
                                             <i class="bi bi-box-arrow-up-right"></i>
                                         </a>
                                         <span class="project-link-text">Para ver o projeto funcionando, acesse o <strong>Deploy</strong> online</span>
                                     </div>
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7349190028368998400/" target="_blank" class="project-link-icon">
                                             <i class="bi bi-linkedin"></i>
                                         </a>
                                         <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
@@ -195,19 +208,19 @@
                                 </div>
                                 <div class="project-links">
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://github.com/guigs028/EncurtadorURL" target="_blank" class="project-link-icon">
                                             <i class="bi bi-github"></i>
                                         </a>
                                         <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
                                     </div>
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://encurtador-url-git-master-guigs-projects.vercel.app/" target="_blank" class="project-link-icon">
                                             <i class="bi bi-box-arrow-up-right"></i>
                                         </a>
                                         <span class="project-link-text">Para ver o projeto funcionando, acesse o <strong>Deploy</strong> online</span>
                                     </div>
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7348892149477773312/" target="_blank" class="project-link-icon">
                                             <i class="bi bi-linkedin"></i>
                                         </a>
                                         <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
@@ -225,13 +238,13 @@
                                 </div>
                                 <div class="project-links">
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://github.com/guigs028/SistemaDeGestaoEleitoral" target="_blank" class="project-link-icon">
                                             <i class="bi bi-github"></i>
                                         </a>
                                         <span class="project-link-text">Para mais detalhes sobre o código, acesse o projeto no <strong>GitHub</strong></span>
                                     </div>
                                     <div class="project-link">
-                                        <a href="#" target="_blank" class="project-link-icon">
+                                        <a href="https://www.linkedin.com/in/guilhermedentzien/details/projects/" target="_blank" class="project-link-icon">
                                             <i class="bi bi-linkedin"></i>
                                         </a>
                                         <span class="project-link-text">Para mais informações sobre o projeto, acesse meu <strong>LinkedIn</strong></span>
@@ -252,10 +265,125 @@
                 </div>
             </div>
         </section>
+
+        <!-- Seção Colaborações Acadêmicas -->
+        <section id="colaboracoes" class="colaboracoes">
+            <div class="interface">
+                <h2 class="titulo"><span>COLABORAÇÕES</span> ACADÊMICAS</h2>
+                <p class="colaboracoes-description">
+                    Experiências em <span class="destaque">projetos acadêmicos colaborativos</span> desenvolvidos na Agência Experimental de Engenharia de Software, onde tive a oportunidade de trabalhar com stakeholders reais e aplicar metodologias profissionais de desenvolvimento.
+                </p>
+                
+                <div class="colaboracao-card">
+                    <div class="colaboracao-content">
+                        <div class="colaboracao-header">
+                            <div class="colaboracao-logo">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <div class="colaboracao-info">
+                                <h3>FluiMap</h3>
+                                <p class="colaboracao-subtitle">Sistema de Análise de Dinâmica de Equipes</p>
+                                <div class="colaboracao-badges">
+                                    <span class="badge project-badge">Projeto Real</span>
+                                    <span class="badge team-badge">Trabalho em Equipe</span>
+                                    <span class="badge stakeholder-badge">Stakeholders</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="colaboracao-description">
+                            <p>Durante minha participação na <span class="destaque">Agência Experimental de Engenharia de Software</span>, evoluí de iniciante a contribuidor ativo no projeto <span class="destaque">FluiMap</span>, desenvolvendo habilidades técnicas específicas e assumindo responsabilidades crescentes ao longo de 5 sprints. Minha jornada envolveu desde adaptação inicial até implementação de funcionalidades completas.</p>
+                            
+                            <div class="colaboracao-features">
+                                <div class="feature-group">
+                                    <h4><i class="bi bi-code-slash"></i> Minhas Contribuições Técnicas</h4>
+                                    <ul>
+                                        <li><strong>Hotfixes Visuais:</strong> Alinhamento de interface com protótipos <span class="tech-blue">Figma</span></li>
+                                        <li><strong>Responsividade:</strong> Correções completas de layout mobile na aba "Formulários"</li>
+                                        <li><strong>Sistema de Email:</strong> Implementação de notificações automáticas com <span class="tech-blue">Resend API</span></li>
+                                        <li><strong>Refatoração Frontend:</strong> Reconstrução de componentes com <span class="tech-blue">Tailwind CSS</span> e <span class="tech-blue">shadcn/ui</span></li>
+                                        <li><strong>Design System:</strong> Padronização visual, ajustes de sidebar e sistema de cores</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="feature-group">
+                                    <h4><i class="bi bi-graph-up-arrow"></i> Evolução nas Sprints</h4>
+                                    <ul>
+                                        <li><strong>Sprint 0:</strong> Adaptação, criação de logos e aprendizado de <span class="tech-blue">Figma</span>/<span class="tech-blue">Clerk</span></li>
+                                        <li><strong>Sprint 1:</strong> Primeiro hotfix visual, introdução ao <span class="tech-blue">Tailwind CSS</span></li>
+                                        <li><strong>Sprint 2:</strong> Correções de responsividade, cards de formulários e barra de pesquisa</li>
+                                        <li><strong>Sprint 3:</strong> Refatoração completa da sidebar e experimentação com paletas de cores</li>
+                                        <li><strong>Sprint 4:</strong> Desenvolvimento de sistema de notificações por email dinâmico</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="feature-group">
+                                    <h4><i class="bi bi-tools"></i> Desafios Superados</h4>
+                                    <ul>
+                                        <li>Familiarização com estrutura de projeto <span class="tech-blue">Next.js</span> complexa</li>
+                                        <li>Correção de problemas específicos no Safari mobile</li>
+                                        <li>Integração entre <span class="tech-blue">Clerk Auth</span> e sistema de emails</li>
+                                        <li>Adaptação a componentes pré-existentes e padrões da equipe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="colaboracao-tech">
+                            <h4>Tecnologias que Utilizei</h4>
+                            <div class="tech-grid">
+                                <div class="tech-category">
+                                    <h5>Frontend & Estilização</h5>
+                                    <div class="tech-tags">
+                                        <span class="tech nextjs">Next.js</span>
+                                        <span class="tech react">React</span>
+                                        <span class="tech tailwind">Tailwind CSS</span>
+                                        <span class="tech typescript">shadcn/ui</span>
+                                    </div>
+                                </div>
+                                <div class="tech-category">
+                                    <h5>Ferramentas & Integração</h5>
+                                    <div class="tech-tags">
+                                        <span class="tech clerk">Clerk Auth</span>
+                                        <span class="tech email">Resend API</span>
+                                        <span class="tech git">Git/GitHub</span>
+                                        <span class="tech api">Figma</span>
+                                    </div>
+                                </div>
+                                <div class="tech-category">
+                                    <h5>Responsividade & UX</h5>
+                                    <div class="tech-tags">
+                                        <span class="tech javascript">CSS Grid</span>
+                                        <span class="tech react">Flexbox</span>
+                                        <span class="tech vite">Mobile-First</span>
+                                        <span class="tech mongodb">Cross-Browser</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="colaboracao-links">
+                            <div class="project-link">
+                                <a href="https://github.com/caBatista/fluimap" target="_blank" class="project-link-icon">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <span class="project-link-text">Veja <strong>meu código</strong> e contribuições no repositório do projeto</span>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://fluimap-five.vercel.app/" target="_blank" class="project-link-icon">
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
+                                <span class="project-link-text">Acesse a <strong>aplicação funcionando</strong> que ajudei a desenvolver</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contato">
         <div class="interface">
             <div class="footer-content">
                 <div class="footer-section">
@@ -273,25 +401,26 @@
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#colaboracoes">Colaborações</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Contato</h4>
                     <div class="contact-info">
-                        <p><i class="bi bi-envelope"></i> guilherme@exemplo.com</p>
+                        <p><i class="bi bi-envelope"></i> guidentzien10@gmail.com</p>
                         <p><i class="bi bi-geo-alt"></i> Porto Alegre, RS</p>
-                        <p><i class="bi bi-phone"></i> (51) 99999-9999</p>
+                        <p><i class="bi bi-phone"></i> (51) 99554-1387</p>
                     </div>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Redes Sociais</h4>
                     <div class="footer-social">
-                        <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="bi bi-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/guilhermedentzien/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/guigs028" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/guigs.dz/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=guidentzien10@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -303,75 +432,6 @@
         </div>
     </footer>
 
-    <script>
-        let lastScrollTop = 0;
-        const header = document.querySelector('header');
-        let isScrollingDown = false;
-        let hideTimeout;
-
-        window.addEventListener('scroll', function() {
-            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-            
-            // Detecta a direção do scroll
-            if (currentScroll > lastScrollTop && currentScroll > 100) {
-                // Rolando para baixo
-                isScrollingDown = true;
-                
-                // Calcula a opacidade baseada na posição do scroll
-                const scrollDistance = currentScroll - 50;
-                const maxScrollForFade = 200; // Distância máxima para fade completo
-                const opacity = Math.max(0, 1 - (scrollDistance / maxScrollForFade));
-                
-                header.style.opacity = opacity;
-                
-                // Se a opacidade chegar a 0, esconde completamente o header
-                if (opacity <= 0) {
-                    header.style.transform = 'translateY(-100%)';
-                }
-                
-            } else if (currentScroll < lastScrollTop || currentScroll <= 100) {
-                // Rolando para cima ou no topo da página
-                isScrollingDown = false;
-                
-                // Mostra o header novamente
-                header.style.transform = 'translateY(0)';
-                header.style.opacity = '1';
-            }
-            
-            lastScrollTop = currentScroll;
-        });
-
-        // Efeito suave de transição
-        header.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-
-        // Carrossel de Projetos
-        let currentProjectIndex = 0;
-        const projectSlides = document.querySelectorAll('.project-slide');
-        const totalProjects = projectSlides.length;
-
-        function showProject(index) {
-            // Remove classe active de todos os slides
-            projectSlides.forEach(slide => {
-                slide.classList.remove('active');
-            });
-            
-            // Adiciona classe active ao slide atual
-            projectSlides[index].classList.add('active');
-        }
-
-        function changeProject(direction) {
-            currentProjectIndex += direction;
-            
-            // Loop infinito
-            if (currentProjectIndex >= totalProjects) {
-                currentProjectIndex = 0;
-            } else if (currentProjectIndex < 0) {
-                currentProjectIndex = totalProjects - 1;
-            }
-            
-            showProject(currentProjectIndex);
-        }
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
