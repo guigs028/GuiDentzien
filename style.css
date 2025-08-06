@@ -353,6 +353,18 @@ section.topo-do-site .flex{
     margin-bottom: 20px; 
 }
 
+.section.topo-do-site .btn-contato {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.topo-do-site .txt-topo-site .btn-contato {
+    display: flex;
+    align-items: center;
+    gap: 25px !important;
+}
+
 /* Responsividade para topo do site */
 @media (max-width: 768px) {
     section.topo-do-site {
