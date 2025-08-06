@@ -362,7 +362,7 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site .btn-contato {
     display: flex;
     align-items: center;
-    gap: 25px !important;
+    gap: 30px !important;
 }
 
 /* Responsividade para topo do site */
@@ -396,6 +396,24 @@ section.topo-do-site .flex{
 
     .txt-topo-site {
         order: 1;
+    }
+
+    .topo-do-site .txt-topo-site .btn-contato {
+        flex-direction: column;
+        gap: 15px !important;
+        align-items: center;
+        width: 100%;
+    }
+
+    .topo-do-site .txt-topo-site .btn-contato a {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .topo-do-site .txt-topo-site .btn-contato button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 16px;
     }
 }
 
