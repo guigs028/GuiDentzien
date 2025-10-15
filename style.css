@@ -834,9 +834,21 @@ section.portfolio .interface {
 .tech-highlights {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 15px;
     margin-bottom: 20px;
     flex-shrink: 0;
+    align-items: center;
+}
+
+.tech-icon {
+    font-size: 36px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.tech-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
 .project-links {
@@ -896,6 +908,13 @@ section.portfolio .interface {
     font-size: 13px;
     font-weight: 600;
     transition: transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tech i {
+    font-size: 16px;
 }
 
 .tech:hover {
@@ -1632,28 +1651,8 @@ section.colaboracoes .interface {
 .tech-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-}
-
-/* Novas classes de tecnologia para colaborações */
-.tech.nextjs {
-    background-color: #000000;
-    color: #fff;
-}
-
-.tech.clerk {
-    background-color: #6C47FF;
-    color: #fff;
-}
-
-.tech.email {
-    background-color: #22C9A8;
-    color: #000;
-}
-
-.tech.api {
-    background-color: #FF6B35;
-    color: #fff;
+    gap: 15px;
+    align-items: center;
 }
 
 .tech.docker {
