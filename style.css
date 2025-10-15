@@ -831,6 +831,18 @@ section.portfolio .interface {
     flex-grow: 1;
 }
 
+.tech-section {
+    margin-bottom: 20px;
+}
+
+.tech-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #6b5a45;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
 .tech-highlights {
     display: flex;
     flex-wrap: wrap;
